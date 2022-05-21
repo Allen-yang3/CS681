@@ -15,8 +15,6 @@ public class PVI {
                         || line.contains("New Jersey, Sussex")
                         || line.contains("New Jersey, Warren")
                         || line.contains("New Jersey, Hudson")
-                        || line.contains("New Jersey, Middlesex")
-                        || line.contains("New Jersey, Union")
                         || line.contains("New Jersey, Essex"))
                 .map(line -> line.split(","))
                 .collect(Collectors.toList());
